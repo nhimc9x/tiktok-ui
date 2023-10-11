@@ -1,0 +1,22 @@
+Kiểm tra các thư viện trong devDependencies ở package.json
+
+1, Cài thêm react-app-rewired, customize-cra để có thể ghi đè webpack. (https://github.com/arackaf/customize-cra);
+2, Cài thêm babel-plugin-module-resolver để việc link các file gọn hơn. (https://github.com/tleunen/babel-plugin-module-resolver);
+ - Trong .babelrc thay thế đoạn này để tránh nhầm lẫn về sau: 
+
+({
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    "~": "./src",
+                }
+            }
+        ]
+    ]
+})
+ 
+ - VD: khi link file chỉ cần: import logo from '~/logo.svg';
+
+3, 
