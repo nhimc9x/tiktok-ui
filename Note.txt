@@ -23,3 +23,4 @@ Kiểm tra các thư viện trong devDependencies ở package.json
 4, Cài SASS: Tạo file GlobalStyle để bao bọc cả <App /> bên trong. Cài yarn add -D SASS
 5, Reset CSS: Chạy lệnh npm install --save normalize.css, thêm @import 'normalize.css';
 và file css hoặc sass
+6, Cài đặt react-router-dom: npm i react-router-dom
