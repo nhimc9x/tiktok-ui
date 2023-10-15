@@ -20,3 +20,6 @@ Kiểm tra các thư viện trong devDependencies ở package.json
  - VD: khi link file chỉ cần: import logo from '~/logo.svg';
 
 3, Thư viện Prettier (Tự căn chỉnh code) 
+4, Cài SASS: Tạo file GlobalStyle để bao bọc cả <App /> bên trong. Cài yarn add -D SASS
+5, Reset CSS: Chạy lệnh npm install --save normalize.css, thêm @import 'normalize.css';
+và file css hoặc sass
