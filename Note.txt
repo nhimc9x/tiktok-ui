@@ -19,4 +19,4 @@ Kiểm tra các thư viện trong devDependencies ở package.json
  
  - VD: khi link file chỉ cần: import logo from '~/logo.svg';
 
-3, 
+3, Thư viện Prettier (Tự căn chỉnh code) 
